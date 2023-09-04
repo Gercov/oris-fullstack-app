@@ -21,13 +21,11 @@ const values = ref()
         type="form"
         @submit="dialog!.showModal()"
       >
-        <h1 class="text-4xl font-bold mb-4 whitespace-nowrap overflow-hidden">
-          Авторизация
-          <a href="https://github.com/Gercov" class="text-xs text-slate-400"
-            >/ Регистрация</a
-          >
-        </h1>
-        <p class="text-sm text-slate-600">Чтобы продолжить, авторизируйтесь</p>
+        <h1 class="text-4xl font-bold mb-4">Авторизация</h1>
+        <p class="text-sm text-slate-600">
+          Чтобы продолжить, авторизируйтесь или
+          <a href="https://github.com/Gercov" class="text-blue-400 underline">зарегистрируйтесь</a>
+        </p>
         <hr class="my-5" />
         <FormKit
           type="text"
